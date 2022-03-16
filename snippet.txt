@@ -1,1 +1,4 @@
-git clone 
+git clone https://github.com/neposeda/Install.git
+cd Install
+chmod +x ./install.sh
+./install.sh
