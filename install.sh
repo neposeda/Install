@@ -2,14 +2,17 @@
 cd ~
 sudo apt-get update
 sudo apt-get install python3-pip python-pyasn1-modules -y
+sudo rm -rf russia_ddos
 git clone https://github.com/alexmon1989/russia_ddos.git
 cd russia_ddos
 sudo pip install -r requirements.txt
 cd ~
+sudo rm -rf MHDDoS
 git clone https://github.com/MHProDev/MHDDoS.git
 cd MHDDoS
 sudo pip install -r requirements.txt
 cd ~
+sudo rm -rf mhddos_proxy
 git clone https://github.com/porthole-ascend-cinnamon/mhddos_proxy.git
 cd mhddos_proxy
 git clone https://github.com/MHProDev/MHDDoS.git
